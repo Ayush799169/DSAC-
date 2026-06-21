@@ -47,7 +47,9 @@ int main()
         cout << "odd no."<<No;
     }
 }
-*/
+*/    
+ //swetch Statement
+
 #include <iostream>
 using namespace std;
 int main()
