@@ -1,10 +1,22 @@
 #include<iostream>
 using namespace std;
-int main()
-{
-    int a,b;
+int main()         
+{    
+    int a,b;                        //int no.
     cout<<"Enter two numbers: ";
     cin>>a>>b;
-    cout<<"Sum of "<<a<<" and "<<b<<" is: "<<a+b<<endl;
+    cout<<a+b;
     return 0;
-}    
+}   
+
+
+/*#include<iostream>
+using namespace std;                      // 
+int main()
+{
+    float a,b;                        //float
+    cout<<"Enter two numbers: ";
+    cin>>a>>b;
+    cout<<a+b;
+    return 0;
+}   */ 

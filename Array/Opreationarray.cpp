@@ -15,7 +15,7 @@ int main()
 {
     int n;
     cin>>n;
-    int arr[100];
+    int arr[100];        //no initialization no. of element is not fixed
     for(int i=0;i<n;i++)
     {
     cin>>arr[i];
@@ -40,7 +40,7 @@ int main()
 
 #include<iostream>
 using namespace std;
-int main();                                   //insert
+int main();                                   //insert  //accses
 {
 int arr[]={2,5,6,7,9};
 arr[2] = 10;  
@@ -60,7 +60,8 @@ int main()
     }
     cout << "Sum: " << sum << endl;
     return 0;
-}           //max                   
+
+}                          //max                   
 #include<iostream>
 using namespace std;
 int main()
@@ -71,12 +72,13 @@ int main()
     {
         if(arr[i]>max)
         {
-            max=arr[i];
+            max=arr[i];   //max=9
         }
     }
     cout<<"Max: "<<max<<endl;
     return 0;
-}            //min
+
+}                               //min
 #include<iostream>
 using namespace std;
 int main()
@@ -87,7 +89,7 @@ int main()
     {
         if(arr[i]<min)
         {
-            min=arr[i];
+            min=arr[i];       //min=2
         }
     }
     cout<<"Min: "<<min<<endl;
@@ -118,7 +120,8 @@ int main()
         cout<<"Element not found in the array."<<endl;
     }
     return 0;
-} *      //delete element
+} *    
+                        //delete element
 #include<iostream>
 using namespace std;
 int main()
@@ -136,7 +139,8 @@ int main()
         cout<<arr[i]<<" ";
     }
     return 0;
-}          //insert  elemennt
+}         
+                //insert  elemennt
  #include<iostream>
 using namespace std;
 int main()
@@ -155,7 +159,8 @@ int main()
         cout<<arr[i]<<" ";
     }
     return 0;
-} */           //reverse array
+} */         
+                      //reverse array
 #include<iostream>
 using namespace std;
 int main()

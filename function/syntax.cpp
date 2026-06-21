@@ -45,7 +45,7 @@ int main(){
     cout<<sumN(5)<<endl;
     cout<<sumN(10)<<endl;
     return 0;
-}*/
+}
 
 #include <iostream>                   //pass by value
 using namespace std;
@@ -62,4 +62,18 @@ int main()
     cout<<a<<endl;          
     cout<<b<<endl;          
     return 0;
-}                           //ncr calculater
+}    */
+#include <iostream>                   //pass by reference                       
+using namespace std;
+void sum (int &a, int &b){
+    a = a + 10;   
+    b = b + 20;                  
+}      
+int main()
+{
+    int a=5,b=10;                  
+    sum(a,b);                      //main hi function hota hai calling
+    cout<<a<<endl;          
+    cout<<b<<endl;          
+    return 0;
+}     

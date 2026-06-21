@@ -132,7 +132,7 @@ int main()
             cout<<"factorial="<<fact<<endl;
      }
     return 0;
-}*/
+}
 
 #include <iostream>                  
 using namespace std;
@@ -145,4 +145,27 @@ int main()
         cout<<i*i<<" ";                 //square of a no                   //cout<<i*i*i<<" ";      //cube of no.    
      }
     return 0;
+}
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+int  a=1;
+while(a<=10){
+    cout<<a<<" ";
+    a++;
+}
+}
+*/
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a=1;
+    do{
+        cout<<a<<" ";
+        a++;
+    }while(a<=5);
 }
