@@ -1,7 +1,7 @@
 /*  #include<iostream>
 using namespace std;
 int main()
-{
+{                                                    //Simple
     cout<<"Hello World!"<<endl;
     return 0;
 }
@@ -14,7 +14,9 @@ int main()
 //int main and void main
 //return and not return type pado
 //cin //cout //std //endl // \n line ke liye
-//single // and  
+//single 
+
+
 #include<iostream>
 using namespace std;
 int main()
@@ -23,12 +25,13 @@ int main()
     cout<<"hello ";                  //row   //<<endl; not space;
     return 0;
 }
+    
  */
 #include<iostream>
 using namespace std;
 int main(){
     int i ,n;
-    cout<<"enter the no.";
+    cout<<"enter the no.";               //No. ke sath
     cin>>n;
     for(i=1;i<n;i++)
     cout<<i+1<<".hello\t";
