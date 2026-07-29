@@ -1,5 +1,5 @@
 #include<iostream>
-using namespace std;
+using namespace std;                      //Postive and Negative No.
 
 int main(){
     int a;
@@ -17,5 +17,22 @@ int main(){
     }
     return 0;
 } 
+
+
+//euals and Not equals
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a=10;
+    if (a == 10) {
+        cout << "a is equal to 10";
+    }
+    else{
+        cout << "a is not equal to 5";
+    }
+    return 0;
+}
 
 

@@ -1,16 +1,19 @@
-/*#include <iostream>
+#include <iostream>
 using namespace std;                    // automatic print no.
 int main()
 {
     int i;
     
-    for(i=0; i<=10;i++){
-        cout<<i<<"hello world"<<endl;; //10;
+   // for(i=0; i<=10;i++){
+       // cout<<i<<".hello world"<<endl;; //10;
+                                             
+    for(i=0; i<=100;i++){
+        cout<<i<<" ";                         //100;    ginti   
     
     }
     return 0;
 } 
-
+/* 
 
 #include <iostream>             //enter a no. print 
 using namespace std;
@@ -75,6 +78,9 @@ int main()
      }
     return 0;
 }
+
+
+
 #include <iostream>                   //print no. in reverse order  
 using namespace std;
 int main()
@@ -156,10 +162,9 @@ int  a=1;
 while(a<=10){
     cout<<a<<" ";
     a++;
-}
-}
-*/
-#include <iostream>
+} */
+
+/* #include <iostream>
 using namespace std;
 int main()
 {
@@ -169,3 +174,4 @@ int main()
         a++;
     }while(a<=5);
 }
+ */
