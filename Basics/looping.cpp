@@ -103,6 +103,7 @@ int main()                           //print table of a no
      }
     return 0;
 }
+    
 #include <iostream>                  
 using namespace std;                    //sum of the no.
 int main()                           
