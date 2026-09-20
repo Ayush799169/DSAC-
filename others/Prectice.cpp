@@ -56,7 +56,7 @@ using namespace std;
             int n;
             cout<<"Enter the number of elements: ";
             cin>>n;
-            int sum=0;
+            int sum=0;                                          //even and odd no. sum
             if(n%2==0){
             for(int i=1; i<=n; i++){
                 if(i%2==0){              

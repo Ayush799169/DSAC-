@@ -11,11 +11,11 @@ int main(){
     if(a>=b && a>=c ) greater =a;
     else if (b>=a && b>=c) greater =b;
   else greater =c;
-                                                       //Greater number and Smallest Number.
+                                                       //Greater number and Smallest Number.       greter bada no. less than chota no. leke liey
     int Smallest;                                      //using to Relational Number. greater >,<less
 
     if(a<=b && a<=c ) Smallest =a;
-    else if (b<=a && b<=c) Smallest =b;
+    else if (b<=a && b<=c) Smallest =b;ṇ
   else Smallest=c;
 cout<<"greater no."<<greater;
 cout<<"smallest no."<<Smallest;

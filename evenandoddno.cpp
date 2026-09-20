@@ -7,7 +7,7 @@ int main()
     int n;
     cin>>n;
     if(n%2==0)
-    cout<<"even No.";
+    cout<<"even No.";            //only odd no. ke liye (n%2!=0) likh do 
     else
     cout<<"odd No";
     return 0;
@@ -53,7 +53,7 @@ int main()
  */ 
 
 
-#include <iostream>              
+/* #include <iostream>              
 using namespace std;
 int main()                         
 {
@@ -66,11 +66,11 @@ int main()
         if(i%2==0)    //(i%2!=0)
         {
             count++;
-        }
+}
     }
     cout<<"Total="<<count <<endl;
     return 0;
-}
+} */
 
     /* 
 #include <iostream>              
@@ -96,12 +96,15 @@ using namespace std;
 
 int main(){
     int i,n;
+    int count=0;
     cout<<"enter the no.";
     cin>>n;
     for(i=1;i<=n;i++)
     {
 if(i%2==0){
+    count++;
     
 }
     }
+    cout<<"Total even numbers: "<<count<<endl;
 }
