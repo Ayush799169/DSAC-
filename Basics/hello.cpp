@@ -34,7 +34,7 @@ int main(){
     cout<<"enter the no.";               //No. ke sath
     cin>>n;
     for(i=1;i<n;i++)
-    cout<<i+1<<".hello\t";
+    cout<<i+1<<".hello"<<endl;          //row   //<<endl; not space; //\t colon ke liye
     return 0;
     
 }

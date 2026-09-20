@@ -148,7 +148,7 @@ int main()
     return 0;
 }
 
-
+                                 //while loop
 #include <iostream>
 using namespace std;
 int main()
@@ -159,8 +159,9 @@ while(a<=10){
     a++;
 }
 }
+
 */
-#include <iostream>
+#include <iostream>                       //do-while loop
 using namespace std;
 int main()
 {
