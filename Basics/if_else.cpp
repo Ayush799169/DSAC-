@@ -50,7 +50,7 @@ int main()
 */    
  //swetch Statement
 
-#include <iostream>
+/* #include <iostream>
 using namespace std;
 int main()
 {
@@ -67,3 +67,35 @@ int main()
     }
     return 0;
 }
+ 
+#include <iostream>
+using namespace std;
+int main()
+{
+    int marks;
+    cout<<"Enter the Number";
+    cin>>marks;
+    if(marks>=33)
+    {
+        cout<<"pass";
+    }
+    else
+    {
+        cout<<"fail";
+    }
+}*/
+ #include <iostream>
+using namespace std;
+int main()
+{
+    int a =10, b = 20;
+   
+    if(a<b)
+    {
+        cout<<" a small No.";
+    }
+    else
+    {
+        cout<<" b small no.";
+    }
+} 

@@ -1,3 +1,6 @@
+
+Function is a block of code that performs a specific task and can be called multiple times within a program. Functions help in organizing code, making it reusable, and improving readability. In C++, functions can take parameters (inputs) and return values (outputs).
+
 /*#include<iostream>
 using namespace std;
 

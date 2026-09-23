@@ -160,7 +160,7 @@ while(a<=10){
 }
 }
 
-*/
+
 #include <iostream>                       //do-while loop
 using namespace std;
 int main()
@@ -170,4 +170,5 @@ int main()
         cout<<a<<" ";
         a++;
     }while(a<=5);
-}
+}*/
+
