@@ -61,7 +61,7 @@ int main(){
     return 0;
 } */
 
-//product of array elements and given no.
+//product of array elements and given no. multiples
 
 #include<iostream>
 using namespace std;
