@@ -34,7 +34,7 @@ int main(){
         cout<<i<<" ";
     }
     return 0;
-}*/
+}
 
 // sum of the natural no. and whole no. and integer no. is same as the.       
 // sum of natural numbers from 1 to n: n(n+1)/2
@@ -54,4 +54,21 @@ int main() {
     cout<< sum;
 
     return 0;
+}*/
+//formula based approach natural,integer and whole numbers sum is same as the formula is same for all three
+#include<iostream>
+using namespace std;
+int main() {
+    int n ,a,b;
+    cin >> n >> a >> b;
+    cout<< "Sum of natural numbers and integers and whole numbers from 0 to " << n << " is: "<<endl;
+    cout<< (n*(n+1))/2<<endl;     // natural
+    cout<<n*(n+1)/2<<endl; // whole
+    cout<< (a+b)*(b-a+1)/2<<endl;// integer
+
+
+    return 0;
 }
+
+
+  
