@@ -22,7 +22,7 @@ cout<<"smallest no."<<Smallest;
  
 return 0;
 
-} */
+} 
 
 #include<iostream>
 using namespace std;
@@ -50,4 +50,38 @@ cout<<"minium no."<<minimum;
  
 return 0;
 
-} 
+}
+
+//greatest of three no. a b c;
+#include<iostream>
+using namespace std;
+int main(){
+    int a,b,c;
+    cout<<"Enter the Number.";
+    cin>>a>>b>>c;
+    
+    int greater;
+    
+    if(a>=b && a>=c ) greater =a;
+    else if (b>=a && b>=c) greater =b;
+  else greater =c;
+  cout<<"Greatest number is: "<<greater;
+ return 0;
+}   // shot trick from gfg
+*/
+//smallest of three no. a b c;
+#include<iostream>
+using namespace std;
+int main(){
+    int a,b,c;
+    cout<<"Enter the Number.";
+    cin>>a>>b>>c;
+    
+    int smallest;
+    
+    if(a<=b && a<=c ) smallest =a;
+    else if (b<=a && b<=c) smallest =b;
+  else smallest =c;
+  cout<<"Smallest number is: "<<smallest;
+ return 0;
+}   // shot trick from gfg
