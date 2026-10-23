@@ -7,22 +7,21 @@ int main(){
     cin>>a>>b>>c;
     
     int greater;
-    
     if(a>=b && a>=c ) greater =a;
     else if (b>=a && b>=c) greater =b;
   else greater =c;
                                                        //Greater number and Smallest Number.       greter bada no. less than chota no. leke liey
     int Smallest;                                      //using to Relational Number. greater >,<less
-
     if(a<=b && a<=c ) Smallest =a;
     else if (b<=a && b<=c) Smallest =b;ṇ
   else Smallest=c;
 cout<<"greater no."<<greater;
 cout<<"smallest no."<<Smallest;
- 
 return 0;
 
 } 
+
+
 
 #include<iostream>
 using namespace std;
@@ -67,9 +66,14 @@ int main(){
   else greater =c;
   cout<<"Greatest number is: "<<greater;
  return 0;
-}   // shot trick from gfg
+} 
+    // shot trick from gfg
 */
-//smallest of three no. a b c;
+
+
+
+//smallest of three no. a b c; 
+
 #include<iostream>
 using namespace std;
 int main(){

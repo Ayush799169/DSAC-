@@ -1,38 +1,14 @@
-/* #include <iostream>                  
-using namespace std;
-int main()                           //prime No. and not prime No.
-{
-    int i,a;
-    cout<<"Enter the No.";
-    cin>>a;
-    int count=0;
-    for(i=1;i<=a;i++)
-    {
-        if(a%i==0)
-        {
-            count++;
-        }
-    }
-
-    if(count==2)
-
-    cout<<"Prime No.";
-    else
-        cout<<"Not Prime no.";
-return 0;
-}
-    
-   #include <iostream>                  
+ #include <iostream>                  
 using namespace std;
 int main()                          
 {
-    int i,a;
+    int i,n;
   
     cout<<"Enter the No.";
-    cin>>a;
-    for(i=2;i<=a;i++)          //i<=20 direct karega
+    cin>>n;
+    for(i=1;i<=100;i++)          //i<=20 direct karega
     {
-          int count=0;
+         int count=0;
   for(int j=1;j<=i;j++)
   {
     if(i%j==0)
@@ -44,6 +20,34 @@ cout<<i<<" ";
 return 0;
 
     }
+
+
+
+/*
+#include <iostream>                  
+using namespace std;
+int main()                           //prime No. and not prime No.
+{
+    int i,n;
+
+    cout<<"Enter the No.";
+    cin>>n;
+    int count=0;
+    for(i=1;i<=n;i++)
+    {
+        if(n%i==0)
+        {
+            count++;
+        }
+    }
+
+    if(count==2)
+    cout<<"Prime No.";
+    else
+        cout<<"Not Prime no.";
+return 0;
+} 
+
 
  #include <iostream>                  
 using namespace std;
@@ -64,7 +68,7 @@ int main()
     }
     cout<<"totalPrime"<<totalPrime;
     return 0;
-}*/
+}
 
 //Not prime No.
 
@@ -88,3 +92,4 @@ int main(){
     cout<<"Total Not Prime Numbers: "<<TotalNotPrime<<endl;
     return 0;
 }
+ */

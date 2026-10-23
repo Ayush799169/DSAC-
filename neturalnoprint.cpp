@@ -1,6 +1,5 @@
 /* #include<iostream>           //Natural no.
 using namespace std;
-
 int main(){
     int a,i;
     cout<<"enter the no.";
@@ -55,7 +54,11 @@ int main() {
 
     return 0;
 }*/
+
+
 //formula based approach natural,integer and whole numbers sum is same as the formula is same for all three
+
+
 #include<iostream>
 using namespace std;
 int main() {

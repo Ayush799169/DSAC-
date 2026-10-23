@@ -1,4 +1,4 @@
-/* #include<iostream>
+ #include<iostream>   
 using namespace std;
 
 int main(){
@@ -16,7 +16,7 @@ int main(){
         cout<<a<<"Zero";
     }
     return 0;
-}  */
+}  /*
 
 #include<iostream>
 using namespace std;
@@ -32,5 +32,5 @@ using namespace std;
  
  return 0;
 }
-
+*/
 

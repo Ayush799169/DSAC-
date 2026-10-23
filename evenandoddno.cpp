@@ -90,7 +90,7 @@ int main()                          // even/odd ka sum and multiple
     cout<<sum<<endl;
 return 0;
 } */
-
+                                 //cout even no . total //odd total cout no.
 #include<iostream>
 using namespace std;
 
@@ -101,10 +101,10 @@ int main(){
     cin>>n;
     for(i=1;i<=n;i++)
     {
-if(i%2==0){
+     if(i%2==0){
     count++;
     
-}
+ }
     }
     cout<<"Total even numbers: "<<count<<endl;
 }
