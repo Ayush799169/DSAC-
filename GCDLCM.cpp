@@ -30,7 +30,7 @@ int main() {
     return 0;
 }*/
 
-//GCD and LCM both
+/* //GCD and LCM both
 #include <iostream>
 int gcd(int a, int b) {
     while (b != 0) {
@@ -49,5 +49,20 @@ int main() {
     std::cin >> a >> b;
     std::cout << "GCD of " << a << " and " << b << " is " << gcd(a, b) << std::endl;
     std::cout << "LCM of " << a << " and " << b << " is " << lcm(a, b) << std::endl;
+    return 0;
+}
+ */
+//Relationship between HCF and LCM                           HCF * LCM = Product of the two numbers
+#include <iostream>
+#include <numeric> // For std::gcd and std::lcm
+int main() {
+    int a, b;
+    std::cout << "Enter two numbers: ";
+    std::cin >> a >> b;
+    // Calculate HCF and LCM using C++17 standard library functions
+    int hcf = std::gcd(a, b);
+    int lcm_value = std::lcm(a, b);
+    std::cout << "HCF * LCM = " << hcf * lcm_value << std::endl;
+    std::cout << "Product of " << a << " and " << b << " is " << a * b << std::endl;
     return 0;
 }
