@@ -1,21 +1,27 @@
-//factorial no.
+//factorial no. using recursion method.
+
 /* #include <iostream>
 using namespace std;
+int factorial(int n) {
+    if (n == 0) {
+        return 1; // Base case: 0! = 1
+    } else {
+        return n * factorial(n - 1); // Recursive case
+    }
+}
 int main() {
-    int n, fact = 1;
+    int n;
     cout << "Enter a number: ";
     cin >> n;
 
-    for (int i = 1; i <= n; i++) {
-        fact *= i; // Calculate factorial by multiplying i  //5=1*2*3*4*5=120
-    }
-
-    cout << "Factorial of " << n << " is: " << fact << endl;
+    int result = factorial(n);
+    cout << "Factorial of " << n << " is: " << result << endl;
 
     return 0;
-} */
+} 
 
 // sum of factorial of given number
+
  #include <iostream>
  using namespace std;
  int main() {
@@ -34,4 +40,11 @@ int main() {
      cout << "Sum of factorials from 1 to " << n << " is: " << sum << endl;
 
      return 0;
- }
+ }*/
+
+ //direct method usin loop
+
+ #include<iostream>
+int main(){
+    
+}

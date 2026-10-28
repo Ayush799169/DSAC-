@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     int number;
-    cout << "Enter a number: ";
+    cout << "Enter a number: ";         //ye vo number hai jo Harshad number hai ya nahi check karne ke liye. Harshad number vo hota hai jo apne digits ke sum se divide ho jaye. Jaise ki 18 ka digits ka sum 1+8=9 hai aur 18%9==0 aa gaya to 18 Harshad number hai, 19 ka digits ka sum 1+9=10 hai aur 19%10!=0 aa gaya to 19 Harshad number nahi hai.
     cin >> number;
 
     int sum = 0;
